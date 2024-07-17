@@ -145,8 +145,8 @@ export default {
         obj.item_descricao = anuncio.item_descricao;
         obj.item_estado_conservacao = anuncio.item_conservacao;
         obj.item_montado = anuncio.item_montado ? 'SIM' : 'NÃO';
-        obj.item_necessita_conserto = anuncio.item_necessita_conserto ? 'SIM' : 'NÃO';
-        obj.item_retirada_obrigatoria = anuncio.item_retirada_obrigatoria ? 'SIM' : 'NÃO';
+        obj.item_necessita_conserto = anuncio.item_conserto ? 'SIM' : 'NÃO';
+        obj.item_retirada_obrigatoria = anuncio.item_retirada ? 'SIM' : 'NÃO';
         obj.criacao_anuncio = new Date(anuncio.createdAt);
 
         /* Contatos do anunciante */
